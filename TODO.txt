@@ -1,2 +1,4 @@
-this is a test commit
-This is another test
+NOTE:
+To input chars in the thonny program do the following in the terminal:
+	$ stty -F /dev/ttyACM0 115200 -ixon -ixoff
+	$ echo p >> /dev/ttyACM0
