@@ -4,8 +4,11 @@
   <name>emli_package</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="pi@todo.todo">pi</maintainer>
+  <maintainer email="Andersjohannsen@outlook.com">pi</maintainer>
   <license>TODO: License declaration</license>
+
+  <exec_depend>turtlesim</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

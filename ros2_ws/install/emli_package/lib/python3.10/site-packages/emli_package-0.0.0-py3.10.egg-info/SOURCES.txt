@@ -9,7 +9,8 @@ setup.py
 ../../build/emli_package/emli_package.egg-info/top_level.txt
 ../../build/emli_package/emli_package.egg-info/zip-safe
 emli_package/__init__.py
-emli_package/emli_node.py
+emli_package/test_node.py
+launch/emli.launch.py
 resource/emli_package
 test/test_copyright.py
 test/test_flake8.py
