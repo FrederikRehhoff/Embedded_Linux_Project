@@ -11,7 +11,6 @@ if [ $1 = "red" ]
     fi
     if [ $2 = "on" ]
         then
-        then
         # Send HTTP GET request to turn on the LED
         echo "Red LED turned on"
         curl -s "http://10.42.0.222/led/red/on" >/dev/null
