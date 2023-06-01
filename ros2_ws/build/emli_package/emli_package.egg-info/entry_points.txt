@@ -1,0 +1,3 @@
+[console_scripts]
+emli_node = emli_package.emli_node:main
+
