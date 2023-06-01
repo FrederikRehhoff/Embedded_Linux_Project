@@ -5,7 +5,8 @@ To input chars in the thonny program do the following in the terminal:
 	
 To turn on led's off and on:
 	10.42.0.222/led/yellow/off
-
+From terminal
+	curl -s "10.42.0.222/led/red/off" >/dev/null
 
 To source on startup:
 	echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
