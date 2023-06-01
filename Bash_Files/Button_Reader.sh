@@ -1,11 +1,7 @@
 #!/bin/bash
 
-var = curl -s "http://10.42.0.222/button/a/count" >/dev/null > 0
+ESP_IP="10.42.0.222"
+LED_ENDPOINT="/button/a/count"
 
-if [$var > 0]
-then
-	echo "Button Presses" var
-	return 1
-else
-	return 0
-fi
+echo "Button Presses: "
+curl -s http://$ESP_IP$LED_ENDPOINT
