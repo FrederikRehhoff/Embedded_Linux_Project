@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'emli_package'
+package_name = 'py_pubsub'
 
 setup(
     name=package_name,
@@ -20,7 +20,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'test_node = emli_package.test_node:main'
         ],
     },
 )
