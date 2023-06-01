@@ -1,7 +1,1 @@
-NOTE:
-To input chars in the thonny program do the following in the terminal:
-	$ stty -F /dev/ttyACM0 115200 -ixon -ixoff
-	$ echo p >> /dev/ttyACM0
-	
-To turn on led's off and on:
-	10.42.0.222/led/yellow/off
+#TODO
