@@ -1,7 +1,11 @@
 /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package/__init__.py
 /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package/test_node.py
+/home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package/subscriber_member_function.py
+/home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package/publisher_member_function.py
 /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package/__pycache__/__init__.cpython-310.pyc
 /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package/__pycache__/test_node.cpython-310.pyc
+/home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package/__pycache__/subscriber_member_function.cpython-310.pyc
+/home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package/__pycache__/publisher_member_function.cpython-310.pyc
 /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/share/emli_package/launch/emli.launch.py
 /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package-0.0.0-py3.10.egg-info/dependency_links.txt
@@ -10,4 +14,6 @@
 /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package-0.0.0-py3.10.egg-info/PKG-INFO
 /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package-0.0.0-py3.10.egg-info/zip-safe
 /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package-0.0.0-py3.10.egg-info/entry_points.txt
+/home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package/random_listener
+/home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package/random_talker
 /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package/test_node

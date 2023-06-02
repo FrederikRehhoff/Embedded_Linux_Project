@@ -1,3 +1,5 @@
 [console_scripts]
+random_listener = emli_package.subscriber_member_function:main
+random_talker = emli_package.publisher_member_function:main
 test_node = emli_package.test_node:main
 

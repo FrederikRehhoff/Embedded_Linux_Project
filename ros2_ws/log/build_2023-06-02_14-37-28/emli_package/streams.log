@@ -1,0 +1,28 @@
+[0.711s] Invoking command in '/home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/src/emli_package': PYTHONPATH=/home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/build/emli_package/prefix_override:/home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/emli_package build --build-base /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/build/emli_package/build install --record /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/build/emli_package/install.log --single-version-externally-managed
+[0.992s] running egg_info
+[0.994s] writing ../../build/emli_package/emli_package.egg-info/PKG-INFO
+[0.994s] writing dependency_links to ../../build/emli_package/emli_package.egg-info/dependency_links.txt
+[0.994s] writing entry points to ../../build/emli_package/emli_package.egg-info/entry_points.txt
+[0.994s] writing requirements to ../../build/emli_package/emli_package.egg-info/requires.txt
+[0.995s] writing top-level names to ../../build/emli_package/emli_package.egg-info/top_level.txt
+[0.996s] reading manifest file '../../build/emli_package/emli_package.egg-info/SOURCES.txt'
+[0.997s] writing manifest file '../../build/emli_package/emli_package.egg-info/SOURCES.txt'
+[0.997s] running build
+[0.997s] running build_py
+[0.998s] copying emli_package/publisher_member_function.py -> /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/build/emli_package/build/lib/emli_package
+[0.998s] running install
+[0.998s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.998s]   warnings.warn(
+[0.998s] running install_lib
+[0.999s] copying /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/build/emli_package/build/lib/emli_package/publisher_member_function.py -> /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package
+[0.999s] byte-compiling /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[1.000s] running install_data
+[1.001s] running install_egg_info
+[1.002s] removing '/home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.002s] Copying ../../build/emli_package/emli_package.egg-info to /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package-0.0.0-py3.10.egg-info
+[1.003s] running install_scripts
+[1.020s] Installing random_listener script to /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package
+[1.021s] Installing random_talker script to /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package
+[1.021s] Installing test_node script to /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package
+[1.021s] writing list of installed files to '/home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/build/emli_package/install.log'
+[1.048s] Invoked command in '/home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/src/emli_package' returned '0': PYTHONPATH=/home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/build/emli_package/prefix_override:/home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/emli_package build --build-base /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/build/emli_package/build install --record /home/frederikrehhoff/Dev/Embedded_Linux_Project/ros2_ws/build/emli_package/install.log --single-version-externally-managed
