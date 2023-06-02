@@ -6,14 +6,13 @@ baud_rate=115200  # Update with the correct baud rate
 #screen -L $serial_port $baud_rate
 stty -F $serial_port $baud_rate
 #cat $serial_port
+echo "Started porgram"
 data=""
 while [ -z "$data" ]; do
-  read -p "Press Enter to start the pump: " _  # Wait for any key press or Enter
-  echo "start" > $serial_port
-
-  data=$(timeout 5 cat $serial_port)
+	echo "Ran the while loop"  
+	data=$(timeout 5 cat $serial_port)
 done
-
+echo "Stoped the while loop"
 
 
 #data=$(timeout 1 cat $serial_port)
