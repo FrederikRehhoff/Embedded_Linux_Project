@@ -21,8 +21,3 @@
 			Set Diode
 			Run pump
 			Read button
-
-	Things for the report:
-		Write about the use of services and clients instead of pub/sub.
-
-	

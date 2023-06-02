@@ -13,3 +13,6 @@ To source on startup:
 
 Pump siphons to equalize water levels if the end of the hose is submerged
 	Shouldn't be a problem when watering the plant, and is fine for testing
+
+Things for the report:
+        Write about the use of services and clients instead of pub/sub.
