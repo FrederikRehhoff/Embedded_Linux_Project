@@ -2,7 +2,7 @@
 
 
 	Get ROS2 in order
-		Make launch file
+		Make launch file execute on system startup
 		Make template node files.
 
 	Make bash scrips:
@@ -21,3 +21,8 @@
 			Set Diode
 			Run pump
 			Read button
+
+	Things for the report:
+		Write about the use of services and clients instead of pub/sub.
+
+	
