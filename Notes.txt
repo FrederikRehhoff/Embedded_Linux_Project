@@ -10,3 +10,6 @@ From terminal
 
 To source on startup:
 	echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+
+Pump siphons to equalize water levels if the end of the hose is submerged
+	Shouldn't be a problem when watering the plant, and is fine for testing
