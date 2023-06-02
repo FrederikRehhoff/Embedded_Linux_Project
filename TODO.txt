@@ -1,1 +1,23 @@
 #TODO
+
+
+	Get ROS2 in order
+		Make launch file
+		Make template node files.
+
+	Make bash scrips:
+		
+		Not done:
+			Log data
+			Button run pump
+			Muisture run pump
+			12t pump
+			Alarm logic
+			Pump logic
+		
+		Done:
+			Read_Sensors
+			Wireless com
+			Set Diode
+			Run pump
+			Read button
