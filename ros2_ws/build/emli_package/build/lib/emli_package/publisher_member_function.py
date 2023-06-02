@@ -14,7 +14,7 @@ class Node1(Node):
 
     def timer_callback(self):
         msg = String()
-        msg.data = str(subprocess.run(['~/Dev/Embedded_Linux_Project/Bash_Files/RandNum.sh'], shell=True, capture_output=True, text=True).stdout)
+        msg.data = str(subprocess.run(['~/Embedded_Linux_Project/Bash_Files/RandNum.sh'], shell=True, capture_output=True, text=True).stdout)
         self.get_logger().info("Publishing: " + msg.data)
         self.publisher_.publish(msg)
 

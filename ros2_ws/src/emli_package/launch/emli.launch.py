@@ -6,14 +6,12 @@ def generate_launch_description():
 
     Random_pub=Node(
         package='emli_package',
-        namespace='Initial_publisher',
         executable='random_talker',
         name='talker'
     )
 
     Random_sub=Node(
         package='emli_package',
-        namespace='Initial_subscriber',
         executable='random_listener',
         name='listener'
     )

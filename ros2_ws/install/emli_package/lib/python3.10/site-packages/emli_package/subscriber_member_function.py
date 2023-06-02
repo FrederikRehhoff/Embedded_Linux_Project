@@ -15,7 +15,7 @@ class Node2(Node):
         number = msg.data
         new_msg = String()
         new_msg.data = "This is a test topic"
-        self.get_logger().info("Recieved: " + number + ", publishing: " + new_msg)
+        self.get_logger().info("Recieved: " + str(number) + ", publishing: " + str(new_msg))
         self.publisher.publish(new_msg)
 
 
