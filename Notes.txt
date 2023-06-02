@@ -14,5 +14,8 @@ To source on startup:
 Pump siphons to equalize water levels if the end of the hose is submerged
 	Shouldn't be a problem when watering the plant, and is fine for testing
 
+./Logging/Host_html.sh runs the server to host the log
+	See it at 10.0.0.10:8000 in the browser
+
 Things for the report:
         Write about the use of services and clients instead of pub/sub.
