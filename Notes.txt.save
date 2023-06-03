@@ -11,12 +11,10 @@ From terminal
 To source on startup:
 	echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 
-
-LOGGING
-
 ./Bash_Files/Logging/Host_html.sh runs the server to host the log
 	See it at http://10.42.0.1:8000/Plots/ in the browser
 ./Bash_Files/Logging/Log_Reset.sh resets the log
+	It will throw an error "rm: cannot remove 'Plots/Health_Logs': Is a directory", but it works
 ./Bash_Files/Logging/Logger.sh $1 $2 $3 $4 $5 Logs everything
 	Moisture_Level=$1
 	Ambient_Light=$2
@@ -24,9 +22,6 @@ LOGGING
 	Pump_Water_Alarm=$4
 	Plant_Water_Alarm=$5
 SYNTAX IN IF STATEMENTS IN ./Bash_Files/Logging/Logger.sh MIGHT NOT BE RIGHT!
-./Bash_Files/Logging/Server_Health_Logger.sh logs system health
-
-
 
 To kill background ros2 nodes:
 	ps aux | grep ros2
