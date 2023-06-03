@@ -11,10 +11,10 @@ From terminal
 To source on startup:
 	echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 
-./Logging/Host_html.sh runs the server to host the log
+./Bash_Files/Logging/Host_html.sh runs the server to host the log
 	See it at http://10.42.0.1:8000/Plots/ in the browser
-./Log_Reset.sh resets the log
-./Logger $1 $2 $3 $4 $5 Logs everything
+./Bash_Files/Logging/Log_Reset.sh resets the log
+./Bash_Files/Logging/Logger.sh $1 $2 $3 $4 $5 Logs everything
 	Moisture_Level=$1
 	Ambient_Light=$2
 	Pump_Active=$3

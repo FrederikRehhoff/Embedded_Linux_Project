@@ -23,9 +23,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'test_node = emli_package.test_node:main',
-            'random_talker = emli_package.publisher_member_function:main',
-            'random_listener = emli_package.subscriber_member_function:main'
+            'Sensor_Pub = emli_package.read_sensor_function:main'
+	    #'test_node = emli_package.test_node:main',
+            #'random_talker = emli_package.publisher_member_function:main',
+            #'random_listener = emli_package.subscriber_member_function:main'
         ],
     },
 )

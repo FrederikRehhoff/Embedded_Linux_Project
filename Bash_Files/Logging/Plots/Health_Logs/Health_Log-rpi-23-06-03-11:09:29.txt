@@ -6,7 +6,7 @@
  
 Hostname         : rpi
 Kernel Version   : 5.15.0-1029-raspi
-Uptime           :  1:39
+Uptime           :  1:51
 Last Reboot Time : 2023-03-23 01:16
  
  
@@ -16,10 +16,10 @@ CPU Load - > Threshold < 1 Normal > 1 Caution , > 2 Unhealthy
 *********************************************************************
 
 
-CPU0 : 1.09
-CPU1 : 1.18
+CPU0 : 1.10
+CPU1 : 1.19
 CPU2 : 1.10
-CPU3 : 1.14
+CPU3 : 1.18
 
 Load Average   :  0.19
  
@@ -35,27 +35,27 @@ Heath Status : Normal
 PID %MEM RSS COMMAND
 1745 1.8 149264 /usr/bin/gnome-shell
 1440 1.0 84500 /usr/lib/xorg/Xorg
-2372 0.6 55668 /usr/bin/python3
+2372 0.6 55736 /usr/bin/python3
+19708 0.5 40744 /usr/bin/python3
 767 0.4 38992 /usr/lib/snapd/snapd
+324 0.4 38236 /lib/systemd/systemd-journald
 1760 0.4 37076 /usr/libexec/goa-daemon
-324 0.4 36964 /lib/systemd/systemd-journald
 1442 0.4 36608 /usr/libexec/goa-daemon
-18867 0.3 26536 /usr/bin/python3
+19662 0.4 33652 /usr/bin/python3
 1903 0.3 26216 /usr/bin/gjs
-2055 0.3 25824 /usr/bin/gjs
  
 => Top CPU using process/application
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-  18932 pi        20   0   22780  12628   5772 R  94.4   0.2   0:00.17 ros2
-  18926 pi        20   0   12784   3460   2872 R  22.2   0.0   0:00.07 top
-   2594 pi        20   0   19092   6564   4332 S   5.6   0.1   0:02.29 sshd
-   2595 pi        20   0   11456   5492   3536 S   5.6   0.1   0:01.44 bash
-      1 root      20   0  169524  12940   7504 S   0.0   0.2   0:18.31 systemd
-      2 root      20   0       0      0      0 S   0.0   0.0   0:00.04 kthreadd
+  23167 pi        20   0   12784   3460   2872 R  22.2   0.0   0:00.07 top
+     14 root      20   0       0      0      0 S   5.6   0.0   0:01.24 ksoftirqd/0
+   1168 root       0 -20       0      0      0 I   5.6   0.0   0:23.57 kworker/u9:2-brcmf_wq/mmc1:0001:1
+      1 root      20   0  169536  12948   7504 S   0.0   0.2   0:20.87 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.05 kthreadd
       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
       4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp
       5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 slub_flushwq
       6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns
+     10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_percpu_wq
  
 *********************************************************************
 Disk Usage - > Threshold < 90 Normal > 90% Caution > 95 Unhealthy
@@ -63,7 +63,7 @@ Disk Usage - > Threshold < 90 Normal > 90% Caution > 95 Unhealthy
 
 tmpfs /run 1% used 778M free space
 
-/dev/mmcblk0p2 / 95% used 712M free space
+/dev/mmcblk0p2 / 95% used 711M free space
 
 tmpfs /dev/shm 1% used 3.9G free space
 
@@ -95,7 +95,7 @@ tmpfs /run/user/1000 		 Normal
  
 Total	Used	Free	%Free
  
-7.62GB	0.54GB 	6.11GB	80%
+7.62GB	0.57GB 	6.07GB	79%
  
 => Swap Memory
  

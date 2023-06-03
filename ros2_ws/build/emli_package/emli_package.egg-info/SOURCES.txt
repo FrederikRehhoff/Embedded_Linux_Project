@@ -10,6 +10,7 @@ setup.py
 ../../build/emli_package/emli_package.egg-info/zip-safe
 emli_package/__init__.py
 emli_package/publisher_member_function.py
+emli_package/read_sensor_function.py
 emli_package/subscriber_member_function.py
 emli_package/test_node.py
 launch/emli.launch.py
