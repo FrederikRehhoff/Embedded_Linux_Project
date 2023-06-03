@@ -17,5 +17,12 @@ Pump siphons to equalize water levels if the end of the hose is submerged
 ./Logging/Host_html.sh runs the server to host the log
 	See it at 10.0.0.10:8000 in the browser
 
+To kill background ros2 nodes:
+	ps aux | grep ros2
+	then then kill the apropriate things with:
+	kill "number", example kill 2202
+
+
 Things for the report:
         Write about the use of services and clients instead of pub/sub.
+	
