@@ -4,7 +4,7 @@ from rclpy.node import Node
 from std_msgs.msg import String
 import subprocess
 
-class run_pump_node(Node):
+class set_leds_node(Node):
 
     def __init__(self):
         super().__init__('Set_LEDs')
@@ -23,7 +23,7 @@ class run_pump_node(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    node = run_pump_node()
+    node = set_leds_node()
     rclpy.spin(node)
     rclpy.shutdown()
 

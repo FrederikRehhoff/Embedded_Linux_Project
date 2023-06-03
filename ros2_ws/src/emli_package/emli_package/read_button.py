@@ -15,7 +15,7 @@ class ButtonPubNode(Node):
     def timer_callback(self):
         msg = String()
         msg.data = str(subprocess.run(['~/Embedded_Linux_Project/Bash_Files/Button_Read.sh'], shell=True, capture_output=True, text=True).stdout)
-        self.get_logger().info("Publishing Button Data: " + msg.data)
+        #self.get_logger().info("Publishing Button Data: " + msg.data)
         self.publisher_.publish(msg)
 
 

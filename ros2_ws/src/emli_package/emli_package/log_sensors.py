@@ -8,7 +8,7 @@ import time
 class log_sensor(Node):
 
     def __init__(self):
-        super().__init__('log_info')
+        super().__init__('Log_Info')
         self.pump_subscription = self.create_subscription(String, 'run_pump', self.pump_listener_callback, 10)
         self.alarm_subscription = self.create_subscription(String, 'Sensor_Info', self.sensor_listener_callback, 10)
         self.pump = 0

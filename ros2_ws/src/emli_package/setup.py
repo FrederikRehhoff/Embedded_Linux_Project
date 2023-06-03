@@ -23,8 +23,15 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'Sensor_Pub = emli_package.read_sensor_function:main'
-	    #'test_node = emli_package.test_node:main',
+            'Sensor_Pub = emli_package.read_sensor_function:main',
+            'Button_Pump = emli_package.button_run_pump:main',
+            'Button_Pub = emli_package.read_button:main',
+            'Log_Info = emli_package.log_sensors:main',
+            'Moisture_Pump = emli_package.moisture_run_pump:main',
+            'Activate_Pump = emli_package.run_pump:main',
+            'Set_LEDs = emli_package.set_led:main'
+            
+	        #'test_node = emli_package.test_node:main',
             #'random_talker = emli_package.publisher_member_function:main',
             #'random_listener = emli_package.subscriber_member_function:main'
         ],

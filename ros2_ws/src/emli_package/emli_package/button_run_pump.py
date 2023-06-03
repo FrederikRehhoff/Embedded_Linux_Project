@@ -8,7 +8,7 @@ import time
 class run_pump_button_node(Node):
 
     def __init__(self):
-        super().__init__('Activate_Pump')
+        super().__init__('Button_Pump')
         self.pump_publisher = self.create_publisher(String, "run_pump", 10)
         self.button_subscription = self.create_subscription(String, 'Button_Info', self.button_listener_callback, 10)
         #self.alarm_subscription = self.create_subscription(String, 'Sensor_Info', self.alarm_listener_callback, 10)

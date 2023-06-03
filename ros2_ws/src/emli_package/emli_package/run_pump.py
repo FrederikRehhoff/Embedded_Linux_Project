@@ -26,18 +26,18 @@ class run_pump_node(Node):
             time.sleep(1)
         new_msg = String()
         new_msg.data = "False"
-        self.publisher.publish(new_msg)
+        self.pump_publisher.publish(new_msg)
 
     def alarm_listener_callback(self, msg: String):
         if msg is None or msg.data == "":
             # Handle the case when msg is empty or None
             self.overflow_alarm = 1
             self.water_alarm = 0
-            return
-        sensor_dat = msg.data
-        sensor = [int(num) for num in sensor_dat.split(",")]
-        self.overflow_alarm = sensor[0]
-        self.water_alarm = sensor[1]
+        else:
+            sensor_dat = msg.data
+            sensor = [int(num) for num in sensor_dat.split(",")]
+            self.overflow_alarm = sensor[0]
+            self.water_alarm = sensor[1]
 
 def main(args=None):
     rclpy.init(args=args)
