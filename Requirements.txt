@@ -1,0 +1,9 @@
+Ros2 Humble (Architecture)
+Startup Service
+fail2ban (SSH Security)
+Thonny (Pico Communication)
+Gnuplot (Log Plotting)
+mpstat (CPU Health Monitoring)
+	https://linuxopsys.com/topics/shell-script-check-linux-system-health
+Arduino IDE (Wifi for ESP board)
+SimpleHTTPServer (Log Webserver)
