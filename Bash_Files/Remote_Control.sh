@@ -1,24 +1,18 @@
 #!/bin/bash
 
-if [ "$1" = "1" ]; then
-	red="on"
-else
-	red="off"
-fi
 
-if [ "$2" = "1" ]; then
-        yellow="on"
+if [ "$1" == "0" ] && [ "$2" == "1" ] && [ "$3" -gt 30 ]; then
+        ./LED_Control 1 0 0
 else
-        yellow="off"
+        if [ "$1" != "0" ] && [ "$2" != "1" ]; then
+                alarm=1
+        else
+                alarm=0
+        fi
+        if [ "$3" -gt 30 ]; then
+                moisture=1
+        else
+                moisture=0
+        fi
+        ./LED_Control 0 "$alarm" "$moisture"
 fi
-
-if [ "$3" = "1" ]; then
-        green="on"
-else
-        green="off"
-fi
-
-./LED_Control.sh red "$red"
-./LED_Control.sh yellow "$yellow"
-./LED_Control.sh green  "$green"
-./Button_Reader.sh
