@@ -11,18 +11,39 @@ From terminal
 To source on startup:
 	echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 
-Pump siphons to equalize water levels if the end of the hose is submerged
-	Shouldn't be a problem when watering the plant, and is fine for testing
-
 ./Logging/Host_html.sh runs the server to host the log
-	See it at 10.0.0.10:8000 in the browser
+	See it at http://10.42.0.1:8000/Plots/ in the browser
+./Log_Reset.sh resets the log
+./Logger $1 $2 $3 $4 $5 Logs everything
+	Moisture_Level=$1
+	Ambient_Light=$2
+	Pump_Active=$3
+	Pump_Water_Alarm=$4
+	Plant_Water_Alarm=$5
 
 To kill background ros2 nodes:
 	ps aux | grep ros2
 	then then kill the apropriate things with:
 	kill "number", example kill 2202
 
+To restart the ros2 launch system startup instance:
+	sudo systemctl daemon-reload
+	sudo systemctl restart ros2_autostart.service
+    Use this to see the serivces status:
+	sudo systemctl status ros2_autostart.service
+
+	If you do this after colcon build it should just run the new launch file and get rid of the old nodes
+
+Security:
+	Setting up ssh-key for RPi
+		if not using existing key, which can be found in ~/.ssh, use:
+			ssh-keygen -t ed25519
+		copy the key to the RPi using:		
+			ssh-copy-id -i ~/.ssh/key_name.pub pi@10.42.0.1
 
 Things for the report:
         Write about the use of services and clients instead of pub/sub.
+	Conditional execution based on, when nodes terminates.
+
+
 	
