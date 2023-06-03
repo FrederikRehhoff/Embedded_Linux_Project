@@ -3,6 +3,7 @@ from rclpy.node import Node
 
 from std_msgs.msg import String
 import subprocess
+import time
 
 class run_pump_node(Node):
 
@@ -22,6 +23,7 @@ class run_pump_node(Node):
             command = '~/Embedded_Linux_Project/Bash_Files/Pump_Logic.sh '
             input = command + arg
             did_pump_run = str(subprocess.run([input],shell=True, capture_output=True, text=True).stdout)
+            time.sleep(1)
         new_msg = String()
         new_msg.data = "False"
         self.publisher.publish(new_msg)
