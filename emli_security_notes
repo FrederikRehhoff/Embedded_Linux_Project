@@ -1,0 +1,60 @@
+security test:
+	
+	bluetooth:
+		disable bluetooth by doing the following:
+		- sudo nano /boot/config.txt
+		insert: dtoverlay=disable-bt
+		test bluetooth ativity:
+		- systemctl status bluetooth
+
+	password requirment on every sudo:
+	- sudo visudo
+	change to:
+	Defaults        env_reset
+	Defaults        timestamp_timeout=0
+
+	how to unban IPs:
+	- sudo fail2ban-client set sshd unbanip IP_addr
+	
+	fail2ban settings:
+		- sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+		- sudo nano /etc/fail2ban/jail.local
+		Change the bantime to 10 minuts and the max_entry to 3
+		use these commands to the see the status of the fail2ban service:
+		- sudo fail2ban-client status
+		- sudo fail2ban-client status sshd
+	
+	nftables.conf:
+		added the following to the chain input:
+		        
+		        type filter hook input priority 0;
+			policy drop;
+
+			# Allow established connections
+			ct state established,related accept
+
+			# Allow loopback traffic
+			iif lo accept
+
+			# Allow SSH traffic
+			tcp dport 22 accept
+
+			# Allow HTTP traffic
+			tcp dport 80 accept
+
+			# Allow DHCP traffic
+			udp dport 67 accept
+
+			# Allow SimpleHTTPServer traffic (port 8000)
+			tcp dport 8000 accept
+
+		use the following command to see the status of the rules
+		- sudo nft list ruleset
+		
+		use the following command to see the status of the firewall (blocked or dropped traffic.):
+		- sudo journalctl -u nftables.service
+		
+		use nmap to see which port is open:
+		- nmap <Raspberry Pi IP address>
+
+
