@@ -48,8 +48,8 @@ set term png
 set timefmt '%d/%m/%Y %H:%M:%S'
 set format x "%m-%d\n%H:%M"
 set xlabel "Time"
-set ylabel "Pump Water Alarm Status"
-set title "Pump Resevoir Alarm Status"
+set ylabel "Pump Water Fullness Status"
+set title "Pump Resevoir Fullness Status"
 set autoscale x
 set yrange [0:1.2]
 set datafile separator "|"

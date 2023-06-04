@@ -16,7 +16,7 @@ class log_sensor(Node):
 
     def pump_listener_callback(self, msg: String):
         pump_bool = msg.data
-        #self.get_logger().info("run_pump were recived in log_sensor: " + msg.data)
+        self.get_logger().info("run_pump were recived in log_sensor: " + msg.data)
         if pump_bool == "True":
             self.pump = 1
 
@@ -28,9 +28,12 @@ class log_sensor(Node):
         sensor = [int(num) for num in sensor_dat.split(",")]
         arg = str(sensor[2]) + ' ' + str(sensor[3]) + ' ' + str(self.pump) + ' ' + str(sensor[1]) + ' ' + str(sensor[0])
         self.get_logger().info("log sensor recived these arguments: " + arg)
-        command = '~/Embedded_Linux_Project/Bash_Files/Logging/Logger.sh '
+        command = '/home/pi/Embedded_Linux_Project/Bash_Files/Logging/Logger.sh '
+        comma = '/home/pi/Embedded_Linux_Project/Bash_Files/Logging/Server_Health_Logger.sh' 
         input = command + arg
         did_pump_run = str(subprocess.run([input],shell=True, capture_output=True, text=True).stdout)
+        did_health_l = str(subprocess.run([comma],shell=True, capture_output=True, text=True).stdout)
+        self.get_logger().info("Return from health log" + did_health_l)
         if self.pump == 1:
             self.pump = 0
 

@@ -1,0 +1,38 @@
+[4.484s] Invoking command in '/home/pi/Embedded_Linux_Project/ros2_ws/src/emli_package': PYTHONPATH=/home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/prefix_override:/home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/emli_package build --build-base /home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/build install --record /home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/install.log --single-version-externally-managed
+[6.260s] running egg_info
+[6.263s] writing ../../build/emli_package/emli_package.egg-info/PKG-INFO
+[6.267s] writing dependency_links to ../../build/emli_package/emli_package.egg-info/dependency_links.txt
+[6.270s] writing entry points to ../../build/emli_package/emli_package.egg-info/entry_points.txt
+[6.271s] writing requirements to ../../build/emli_package/emli_package.egg-info/requires.txt
+[6.272s] writing top-level names to ../../build/emli_package/emli_package.egg-info/top_level.txt
+[6.285s] reading manifest file '../../build/emli_package/emli_package.egg-info/SOURCES.txt'
+[6.294s] writing manifest file '../../build/emli_package/emli_package.egg-info/SOURCES.txt'
+[6.295s] running build
+[6.296s] running build_py
+[6.299s] copying emli_package/log_sensors.py -> /home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/build/lib/emli_package
+[6.306s] running install
+[6.311s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.311s]   warnings.warn(
+[6.313s] running install_lib
+[6.317s] copying /home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/build/lib/emli_package/log_sensors.py -> /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package
+[6.323s] byte-compiling /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package/log_sensors.py to log_sensors.cpython-310.pyc
+[6.326s]   File "/home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package/log_sensors.py", line 34
+[6.327s]     did_health_log = str(subprocess.run([~/Embedded_Linux_Project/Bash_Files/Logging/Server_Health_Logger.sh],shell=True, capture_output=True, text=True).stdout
+[6.327s]                                           ^
+[6.327s] SyntaxError: invalid syntax
+[6.327s] 
+[6.329s] running install_data
+[6.332s] running install_egg_info
+[6.339s] removing '/home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package-0.0.0-py3.10.egg-info' (and everything under it)
+[6.341s] Copying ../../build/emli_package/emli_package.egg-info to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package-0.0.0-py3.10.egg-info
+[6.351s] running install_scripts
+[6.503s] Installing Activate_Pump script to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package
+[6.504s] Installing Button_Pub script to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package
+[6.505s] Installing Button_Pump script to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package
+[6.506s] Installing Log_Info script to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package
+[6.507s] Installing Moisture_Pump script to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package
+[6.509s] Installing Sensor_Pub script to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package
+[6.510s] Installing Set_LEDs script to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package
+[6.511s] Installing T12_Pump script to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package
+[6.514s] writing list of installed files to '/home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/install.log'
+[6.682s] Invoked command in '/home/pi/Embedded_Linux_Project/ros2_ws/src/emli_package' returned '0': PYTHONPATH=/home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/prefix_override:/home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/emli_package build --build-base /home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/build install --record /home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/install.log --single-version-externally-managed

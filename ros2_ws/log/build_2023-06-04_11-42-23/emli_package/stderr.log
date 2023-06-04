@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package/log_sensors.py", line 34
+    did_health_log = str(subprocess.run([~/Embedded_Linux_Project/Bash_Files/Logging/Server_Health_Logger.sh],shell=True, capture_output=True, text=True).stdout
+                                          ^
+SyntaxError: invalid syntax
+
