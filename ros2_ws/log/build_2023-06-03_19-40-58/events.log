@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.001061] (emli_package) JobQueued: {'identifier': 'emli_package', 'dependencies': OrderedDict()}
+[0.001245] (emli_package) JobStarted: {'identifier': 'emli_package'}
+[0.097816] (-) TimerEvent: {}
+[0.198688] (-) TimerEvent: {}
+[0.299431] (-) TimerEvent: {}
+[0.400137] (-) TimerEvent: {}
+[0.500835] (-) TimerEvent: {}
+[0.601604] (-) TimerEvent: {}
+[0.702357] (-) TimerEvent: {}
+[0.803052] (-) TimerEvent: {}
+[0.903786] (-) TimerEvent: {}
+[1.004430] (-) TimerEvent: {}
+[1.105093] (-) TimerEvent: {}
+[1.205809] (-) TimerEvent: {}
+[1.306581] (-) TimerEvent: {}
+[1.407274] (-) TimerEvent: {}
+[1.507926] (-) TimerEvent: {}
+[1.608599] (-) TimerEvent: {}
+[1.709429] (-) TimerEvent: {}
+[1.810364] (-) TimerEvent: {}
+[1.911066] (-) TimerEvent: {}
+[2.011777] (-) TimerEvent: {}
+[2.112441] (-) TimerEvent: {}
+[2.213119] (-) TimerEvent: {}
+[2.313913] (-) TimerEvent: {}
+[2.414589] (-) TimerEvent: {}
+[2.515256] (-) TimerEvent: {}
+[2.615984] (-) TimerEvent: {}
+[2.716656] (-) TimerEvent: {}
+[2.817350] (-) TimerEvent: {}
+[2.918079] (-) TimerEvent: {}
+[3.018738] (-) TimerEvent: {}
+[3.120283] (-) TimerEvent: {}
+[3.221079] (-) TimerEvent: {}
+[3.321884] (-) TimerEvent: {}
+[3.422519] (-) TimerEvent: {}
+[3.523206] (-) TimerEvent: {}
+[3.623924] (-) TimerEvent: {}
+[3.724612] (-) TimerEvent: {}
+[3.825384] (-) TimerEvent: {}
+[3.926223] (-) TimerEvent: {}
+[4.027141] (-) TimerEvent: {}
+[4.079024] (emli_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/emli_package', 'build', '--build-base', '/home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/build', 'install', '--record', '/home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/Embedded_Linux_Project/ros2_ws/src/emli_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'pi', 'SSH_CLIENT': '10.0.0.1 40914 22', 'LC_TIME': 'nl_NL.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'nl_NL.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '74', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'nl_NL.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:14.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '6', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'PWD': '/home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.1 40914 10.0.0.10 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/prefix_override:/home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1'}, 'shell': False}
+[4.127311] (-) TimerEvent: {}
+[4.228074] (-) TimerEvent: {}
+[4.328824] (-) TimerEvent: {}
+[4.429638] (-) TimerEvent: {}
+[4.530375] (-) TimerEvent: {}
+[4.631072] (-) TimerEvent: {}
+[4.731811] (-) TimerEvent: {}
+[4.832674] (-) TimerEvent: {}
+[4.933439] (-) TimerEvent: {}
+[5.034232] (-) TimerEvent: {}
+[5.134962] (-) TimerEvent: {}
+[5.235719] (-) TimerEvent: {}
+[5.336584] (-) TimerEvent: {}
+[5.437355] (-) TimerEvent: {}
+[5.538335] (-) TimerEvent: {}
+[5.639160] (-) TimerEvent: {}
+[5.661312] (emli_package) StdoutLine: {'line': b'running egg_info\n'}
+[5.664359] (emli_package) StdoutLine: {'line': b'writing ../../build/emli_package/emli_package.egg-info/PKG-INFO\n'}
+[5.668378] (emli_package) StdoutLine: {'line': b'writing dependency_links to ../../build/emli_package/emli_package.egg-info/dependency_links.txt\n'}
+[5.669737] (emli_package) StdoutLine: {'line': b'writing entry points to ../../build/emli_package/emli_package.egg-info/entry_points.txt\n'}
+[5.670736] (emli_package) StdoutLine: {'line': b'writing requirements to ../../build/emli_package/emli_package.egg-info/requires.txt\n'}
+[5.671547] (emli_package) StdoutLine: {'line': b'writing top-level names to ../../build/emli_package/emli_package.egg-info/top_level.txt\n'}
+[5.683683] (emli_package) StdoutLine: {'line': b"reading manifest file '../../build/emli_package/emli_package.egg-info/SOURCES.txt'\n"}
+[5.689988] (emli_package) StdoutLine: {'line': b"writing manifest file '../../build/emli_package/emli_package.egg-info/SOURCES.txt'\n"}
+[5.690760] (emli_package) StdoutLine: {'line': b'running build\n'}
+[5.691408] (emli_package) StdoutLine: {'line': b'running build_py\n'}
+[5.694550] (emli_package) StdoutLine: {'line': b'copying emli_package/button_run_pump.py -> /home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/build/lib/emli_package\n'}
+[5.695673] (emli_package) StdoutLine: {'line': b'copying emli_package/run_pump.py -> /home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/build/lib/emli_package\n'}
+[5.697947] (emli_package) StdoutLine: {'line': b'copying emli_package/read_button.py -> /home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/build/lib/emli_package\n'}
+[5.700430] (emli_package) StdoutLine: {'line': b'running install\n'}
+[5.704062] (emli_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.704718] (emli_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.705420] (emli_package) StdoutLine: {'line': b'running install_lib\n'}
+[5.709979] (emli_package) StdoutLine: {'line': b'copying /home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/build/lib/emli_package/button_run_pump.py -> /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package\n'}
+[5.711121] (emli_package) StdoutLine: {'line': b'copying /home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/build/lib/emli_package/run_pump.py -> /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package\n'}
+[5.713316] (emli_package) StdoutLine: {'line': b'copying /home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/build/lib/emli_package/read_button.py -> /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package\n'}
+[5.717243] (emli_package) StdoutLine: {'line': b'byte-compiling /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package/button_run_pump.py to button_run_pump.cpython-310.pyc\n'}
+[5.719980] (emli_package) StdoutLine: {'line': b'byte-compiling /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package/run_pump.py to run_pump.cpython-310.pyc\n'}
+[5.724069] (emli_package) StdoutLine: {'line': b'byte-compiling /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package/read_button.py to read_button.cpython-310.pyc\n'}
+[5.727057] (emli_package) StdoutLine: {'line': b'running install_data\n'}
+[5.729651] (emli_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.736894] (emli_package) StdoutLine: {'line': b"removing '/home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.738917] (emli_package) StdoutLine: {'line': b'Copying ../../build/emli_package/emli_package.egg-info to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/python3.10/site-packages/emli_package-0.0.0-py3.10.egg-info\n'}
+[5.739467] (-) TimerEvent: {}
+[5.748940] (emli_package) StdoutLine: {'line': b'running install_scripts\n'}
+[5.838195] (emli_package) StdoutLine: {'line': b'Installing Activate_Pump script to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package\n'}
+[5.839260] (emli_package) StdoutLine: {'line': b'Installing Button_Pub script to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package\n'}
+[5.839795] (-) TimerEvent: {}
+[5.840539] (emli_package) StdoutLine: {'line': b'Installing Button_Pump script to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package\n'}
+[5.841469] (emli_package) StdoutLine: {'line': b'Installing Log_Info script to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package\n'}
+[5.842436] (emli_package) StdoutLine: {'line': b'Installing Moisture_Pump script to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package\n'}
+[5.843590] (emli_package) StdoutLine: {'line': b'Installing Sensor_Pub script to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package\n'}
+[5.844756] (emli_package) StdoutLine: {'line': b'Installing Set_LEDs script to /home/pi/Embedded_Linux_Project/ros2_ws/install/emli_package/lib/emli_package\n'}
+[5.847548] (emli_package) StdoutLine: {'line': b"writing list of installed files to '/home/pi/Embedded_Linux_Project/ros2_ws/build/emli_package/install.log'\n"}
+[5.940154] (-) TimerEvent: {}
+[5.982673] (emli_package) CommandEnded: {'returncode': 0}
+[6.040651] (-) TimerEvent: {}
+[6.079200] (emli_package) JobEnded: {'identifier': 'emli_package', 'rc': 0}
+[6.082906] (-) EventReactorShutdown: {}

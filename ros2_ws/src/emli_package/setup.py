@@ -29,6 +29,7 @@ setup(
             'Log_Info = emli_package.log_sensors:main',
             'Moisture_Pump = emli_package.moisture_run_pump:main',
             'Activate_Pump = emli_package.run_pump:main',
+	    'T12_Pump = emli_package.t12_pump:main',
             'Set_LEDs = emli_package.set_led:main'
             
 	        #'test_node = emli_package.test_node:main',

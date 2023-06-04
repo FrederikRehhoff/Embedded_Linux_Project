@@ -140,4 +140,4 @@ then
     fi
 fi
 
-mv "$FILENAME" Plots/Health_Logs
+mv "$FILENAME" /home/pi/Embedded_Linux_Project/Bash_Files/Logging/Plots/Health_Logs

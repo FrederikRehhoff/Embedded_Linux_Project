@@ -1,3 +1,10 @@
 [console_scripts]
+Activate_Pump = emli_package.run_pump:main
+Button_Pub = emli_package.read_button:main
+Button_Pump = emli_package.button_run_pump:main
+Log_Info = emli_package.log_sensors:main
+Moisture_Pump = emli_package.moisture_run_pump:main
 Sensor_Pub = emli_package.read_sensor_function:main
+Set_LEDs = emli_package.set_led:main
+T12_Pump = emli_package.t12_pump:main
 

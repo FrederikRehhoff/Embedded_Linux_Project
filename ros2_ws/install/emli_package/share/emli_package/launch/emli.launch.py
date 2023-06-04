@@ -24,10 +24,60 @@ def generate_launch_description():
 
     L_Sensor_Pub=Node(
         package='emli_package',
-	#namespace='init_random',
         executable='Sensor_Pub',
         name='read_sensor'
-
     )
-    ld.add_action(L_Sensor_Pub)	
+
+    L_Button_Pump=Node(
+        package='emli_package',
+        executable='Button_Pump',
+        name='Pump_With_Button'
+    )
+
+    L_Log_Info=Node(
+        package='emli_package',
+        executable='Log_Info',
+        name='Sensor_Log'
+    )
+
+    L_Moisture_Pump=Node(
+        package='emli_package',
+        executable='Moisture_Pump',
+        name='Pump_With_Moisture'
+    )
+
+    L_Activate_Pump=Node(
+        package='emli_package',
+        executable='Activate_Pump',
+        name='Run_Pump'
+    )
+
+    L_Set_LEDs=Node(
+        package='emli_package',
+        executable='Set_LEDs',
+        name='Set_LED'
+    )
+
+
+    L_Button_Pub=Node(
+        package='emli_package',
+        executable='Button_Pub',
+        name='Button_Count'
+    )
+
+    L_T12_Pump=Node(
+        package='emli_package',
+        executable='T12_Pump',
+        name='T12_Pump'
+    )
+
+
+    ld.add_action(L_Sensor_Pub)
+    ld.add_action(L_Button_Pump)
+    ld.add_action(L_Log_Info)
+    ld.add_action(L_Moisture_Pump)
+    ld.add_action(L_Activate_Pump)
+    ld.add_action(L_Set_LEDs)
+    ld.add_action(L_Button_Pub)
+    ld.add_action(L_T12_Pump)
     return ld

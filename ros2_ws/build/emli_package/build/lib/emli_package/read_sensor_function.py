@@ -15,7 +15,7 @@ class SensorPubNode(Node):
     def timer_callback(self):
         msg = String()
         msg.data = str(subprocess.run(['~/Embedded_Linux_Project/Bash_Files/Read_Sensor.sh'], shell=True, capture_output=True, text=True).stdout)
-        self.get_logger().info("Publishing Sensor Data: " + msg.data)
+        #self.get_logger().info("Publishing Sensor Data: " + msg.data)
         self.publisher_.publish(msg)
 
 

@@ -65,6 +65,12 @@ def generate_launch_description():
         name='Button_Count'
     )
 
+    L_T12_Pump=Node(
+        package='emli_package',
+        executable='T12_Pump',
+        name='T12_Pump'
+    )
+
 
     ld.add_action(L_Sensor_Pub)
     ld.add_action(L_Button_Pump)
@@ -72,4 +78,6 @@ def generate_launch_description():
     ld.add_action(L_Moisture_Pump)
     ld.add_action(L_Activate_Pump)
     ld.add_action(L_Set_LEDs)
+    ld.add_action(L_Button_Pub)
+    ld.add_action(L_T12_Pump)
     return ld
