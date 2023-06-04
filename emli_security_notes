@@ -2,8 +2,8 @@ security test:
 	
 	bluetooth:
 		disable bluetooth by doing the following:
-		- sudo nano /boot/config.txt
-		insert: dtoverlay=disable-bt
+		- sudo systemctl disable bluetooth.service (disable the Bluetooth service)
+		- sudo systemctl mask bluetooth.service (revents bluetooth from being started even if other processes try to start it)
 		test bluetooth ativity:
 		- systemctl status bluetooth
 
@@ -56,5 +56,35 @@ security test:
 		
 		use nmap to see which port is open:
 		- nmap <Raspberry Pi IP address>
+
+
+
+
+
+
+
+
+
+
+
+
+Demonstration:
+	
+	bluetooth:
+	- systemctl status bluetooth
+
+	Fail2Ban:
+	- sudo fail2ban-client status sshd
+	
+	nftables changes:
+	- nmap 10.42.0.1
+	
+
+
+
+
+
+
+
 
 
